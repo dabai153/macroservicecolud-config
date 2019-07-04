@@ -1,0 +1,17 @@
+spring:
+  progiles:
+    active:
+    - dev
+
+---
+spring:
+   progiles: dev  #开发环境
+   application:
+      name: macroservicecloud-config-atguigu-dev
+---
+
+spring:
+   profiles: test #测试环境
+   application:
+     name: macroservicecloud-config-atguigu-test
+#   请保存为UTF-8格式
